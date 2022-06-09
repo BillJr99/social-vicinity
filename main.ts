@@ -30,7 +30,7 @@ friends = [
 0
 ]
 radio.setGroup(1)
-radio_number = radio_number
+radio_number = 0
 friend_index = 0
 basic.showNumber(0)
 basic.forever(function () {
