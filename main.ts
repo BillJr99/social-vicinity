@@ -1,5 +1,5 @@
 input.onButtonPressed(Button.A, function () {
-    radio_number += 1
+    radio_number = (radio_number + 1) % 10
     basic.showNumber(radio_number)
 })
 input.onButtonPressed(Button.B, function () {
